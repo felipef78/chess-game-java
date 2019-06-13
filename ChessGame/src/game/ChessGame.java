@@ -1,5 +1,9 @@
 package game;
 
+import enums.ColorType;
+import java.util.List;
+import java.util.Map;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,6 +15,20 @@ package game;
  * @author felip
  */
 public class ChessGame {
+    private Chessboard board;
+    private Player player1;
+    private Player player2;
+    private Map<Player,List> moveHistory;
+    private Map<Player,ColorType> selectedPieceColor;
+    
+    public void startGame(){
+        
+    }
+    
+    public Player declareWinner() {
+        return null;
+    }
+    
     
 }
 
